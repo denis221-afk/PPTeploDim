@@ -1,0 +1,27 @@
+.contact_section{
+    padding: 220px 0;
+    h2{
+        text-align: center;
+        font-size: 31px;
+        font-weight: bold;
+    }
+}
+
+.contacts__wrapper{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    img{
+        max-width: 550px;
+    }
+}
+
+.contacts__info{
+    font-size: 21px;
+    .link
+    {
+        margin-top: 10px;
+        color: #000;
+        display: block;
+    }
+}

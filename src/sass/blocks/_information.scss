@@ -1,0 +1,57 @@
+.information{
+    padding: 120px 0;
+    background-color: #c4c4c4;
+
+    & > div {
+        text-align: center;
+    }
+
+    h2{
+        font-size: 36px;
+    }
+
+    .content{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}
+
+
+
+.content_window{
+    width: 100%;
+    height: 450px;
+    margin-top: 50px;
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+    img{
+        max-width: 450px;
+        object-fit: cover;
+    }
+
+    .content_info{
+        max-width: 500px;
+    }
+}
+
+.tabs{
+    display: flex;
+}
+
+.content_tab{
+    padding: 4px;
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+
+
+.active_tab{
+    border-bottom:1px solid #fff;
+}

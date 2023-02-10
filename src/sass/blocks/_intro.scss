@@ -1,0 +1,70 @@
+.intro{
+    height: 100vh;
+    // background-image: url('https://static.oferteo.pl/images/portfolio/1806550/orig/4036_157a.jpg');
+    background-image: url('../../img/backgraund.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    .fillter_opacity{
+        background: #000000;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        z-index: 1;
+        opacity: 0.5;
+    }
+    img{
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        z-index: -100;
+    }
+
+    .intro_info{
+        display: flex;
+        width: 100%;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        z-index: 100;
+
+        .title{
+            font-size: 72px;
+            color: #fff;
+            letter-spacing: 5px;
+        }
+    }
+}
+
+.denamic_title{
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 5px;
+
+    &::after{
+        content: "";
+        width: 2px;
+        height: 50%;
+        background-color: #fff;
+        display: inline-block;
+    }
+}
+
+.btn-orange{
+    margin-top: 40px;
+    padding: 8px 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: #ff8562;
+    color: #fff;
+    font-weight: 700;
+    &:hover{
+        transition: 0.5s ease;
+        opacity: 0.6;
+    }
+}

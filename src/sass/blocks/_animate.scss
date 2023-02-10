@@ -1,0 +1,26 @@
+.col-1, .slider, .services__wrapper, .sertevicate, .Portfolio_wrapper{
+    transform: translateY(-50px);
+    opacity: 0.4;
+    
+}
+.col-2 , .contact_section{
+    transform: translateY(50px);
+    opacity: 0.4;
+}
+
+
+
+
+
+.information , .like, .form_wrapper{
+    transform: translateY(-50px);
+}
+
+
+    ._active{
+        transition: all 0.5s ease-in-out;
+        transform: translateY(0px);
+        opacity: 1;
+    }
+
+
